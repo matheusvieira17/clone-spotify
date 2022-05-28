@@ -1,0 +1,97 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 5rem 0;
+}
+
+.footer-container img {
+    width: auto;
+    height: 2.5rem;
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+    font-size: 0.8rem;
+}
+
+.footer-container .footer-menu {
+    margin: 0px 2.5rem;
+    list-style-type: none;
+}
+
+.footer-container .footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-details);
+    font-size: 0.8rem;
+}
+
+.footer-container .footer-menu .footer-item {
+    margin: 1.6rem 0;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.footer-container .footer-menu .footer-item:hover {
+    color: var(--second-color);
+    transition: 0.5s;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.social-media i {
+    margin: 0 1.8rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--color-details);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.social-media i:hover {
+    background-color: var(--second-color);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.infos {
+    background-color: black;
+    color: white;
+}
+
+.infos .list-infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+.infos .list-infos .infos-item:hover {
+    color: var(--second-color);
+    transition: 0.5s;
+}
+
+.copy p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.copy a {
+    color: var(--color-default);
+    text-decoration: none;
+}
+
+.copy a:hover {
+    color: var(--second-color)
+}
